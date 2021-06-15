@@ -7,7 +7,7 @@ FSJS Project 2 - Data Pagination and Filtering
 const perPage = 9;
 const header = document.querySelector(".header");
 
-let enteredKeys;
+
 let searchedWord = "";
 let searchedList =[];
 const linkList = document.querySelector('.link-list')
