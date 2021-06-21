@@ -170,7 +170,8 @@ function searchFunc(searchString){
      
      }
   }
- return searchedList;
+  showPage(searchedList, 1)
+ addPagination(searchedList);
 }
 /*
 **********************************************************************
